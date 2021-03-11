@@ -1,0 +1,26 @@
+.listItemRow{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-style: none;
+}
+
+.listItemRowField{
+    width: 9vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 10px;
+    color: #7C7C7C;
+}
+
+.quoteDetailDropdown{
+    background-color: #E8E8E8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .listItemRowField{
+        width: 20vw;
+    }
+}

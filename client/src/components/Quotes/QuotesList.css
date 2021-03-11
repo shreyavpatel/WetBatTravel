@@ -1,0 +1,81 @@
+.quotesTable{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.quotesTableContainer{
+  width: fit-content;
+  border-radius: 15px;
+  border-color: #E8E8E8;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  padding: 5px;
+  height: 600px;
+  margin: auto 20px auto auto;
+}
+
+.listHeader{
+  padding: 20px 20px;
+  border-bottom: #E8E8E8;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.listHeaderTitle{
+  padding-left: 20px;
+  margin-block: auto;
+  font-size: xx-large;
+  color: #5F6CAF;
+  font-weight: 400;
+}
+
+.listHeaderIcon{
+  color: #5BBFBA;
+}
+
+.listHeaderRow{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-style: none;
+}
+
+.listHeaderRowField{
+  font-weight: bold;
+  text-align: left;
+  width: 9vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px 10px;
+  color: #7C7C7C;
+}
+
+.emptyListLabel{
+  color: #7C7C7C;
+  padding-top: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 900px) {
+  .quotesTableContainer{
+    margin: auto;
+    padding: 5px;
+  }
+
+  .listHeaderRowField{
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .listHeaderTitle{
+    font-size: x-large;
+  }
+}

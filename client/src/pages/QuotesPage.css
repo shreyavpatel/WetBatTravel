@@ -1,0 +1,33 @@
+.background {
+  background-color: #EDF0F9;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+
+.quotesContainer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  min-height: 90vh;
+}
+
+.quoteListContainer{
+  width: 50vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.quoteDetailCard{
+  width: 600px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .quoteListContainer{
+    width: 100vw;
+  }
+}
