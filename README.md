@@ -52,7 +52,7 @@ In the server directory, you can run:
 
 ### `npm start`
 
-Runs the development server.\
+This runs the development server.
 
 ## Structural decisions
 I utilized MySQL for the database, and used Sequelize to insert bulk data into the database.  
